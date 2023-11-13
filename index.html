@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="wallpaperflare.com_wallpaper.jpg">
+    <div>
+    <div class="container">
+        <div class="weather__header">
+            <img src="logo.png">
+            <form class="weather__search">
+                <input type="text" placeholder="Search for a city..." class="weather__searchform">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </form>
+            <div class="weather__units">
+                <span class="weather_unit_celsius">&#176C</span>
+                <span class="weather_unit_farenheit">&#176F</span>
+            </div>
+        </div>
+        <div class="weather__body">
+            <h1 class="weather__city"></h1>
+            <div class="weather__datetime">
+            </div>
+            <div class="p">
+            <div class="weather__forecast q"></div>
+            <div class="weather__icon q">
+            </div>
+            <p class="weather__temperature q" >
+            </p>
+        </div>
+            <div class="weather__minmax">
+                <p>Min: 12&#176</p>
+                <p>Max: 16&#176</p>
+            </div>
+        </div>
+
+        <div class="weather__info">
+            <div class="weather__card">
+                <i class="fa-solid fa-temperature-full"></i>
+                <div>
+                    <p>Real Feel</p>
+                    <p class="weather__realfeel">18&#176</p>
+                </div>
+            </div>
+            <div class="weather__card">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <p>Humidity</p>
+                    <p class="weather__humidity">18&#176</p>
+                </div>
+            </div>
+            <div class="weather__card">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <p>Wind</p>
+                    <p class="weather__wind">18&#176</p>
+                </div>
+            </div>
+            <div class="weather__card">
+                <i class="fa-solid fa-gauge-high"></i>
+                <div>
+                    <p>Pressure</p>
+                    <p class="weather__pressure">18&#176</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="future-forecast">
+        <div class="today" id="current-temp">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="other">
+                <div class="day">Monday</div>
+                <div class="temp">Day - 25.6&#176; C</div>
+                <div class="temp">Night - 35.6&#176; C</div>
+            </div>
+        </div>
+
+        <div class="weather-forecast" id="weather-forecast">
+            <div class="weather-forecast-item">
+                <div class="day">Tue</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Day - 25.6&#176; C</div>
+                <div class="temp">Night - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Wed</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Day - 25.6&#176; C</div>
+                <div class="temp">Night - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Thur</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Day - 25.6&#176; C</div>
+                <div class="temp">Night - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Fri</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Day - 25.6&#176; C</div>
+                <div class="temp">Night - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Sat</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Day - 25.6&#176; C</div>
+                <div class="temp">Night - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Sun</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Day - 25.6&#176; C</div>
+                <div class="temp">Night - 35.6&#176; C</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://kit.fontawesome.com/69be5eb781.js" crossorigin="anonymous"></script>
+    <script src="app1.js"></script>
+</body>
+
+</html>
